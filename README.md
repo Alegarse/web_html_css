@@ -1,2 +1,2 @@
-# Repo_FrontEnd_Bootcamp
-Repos de prácticas de HMTL/CSS
+# Repositorio para las prácticas de la parte Front End del Bootcamp
+HTML / CSS 
