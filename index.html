@@ -6,13 +6,13 @@
     <title>Bistro Bliss</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="top-bar">
         <div class="top-bar-contact">
           <a href="tel:4148570107">(414) 857 - 0107</a>
           <a href="mailto:yummy@bistrobliss">yummy@bistrobliss</a>
         </div>
-        <div class="top-bar-social">
+        <nav class="top-bar-social">
           <ul>
             <li>
               <a href="#">Twitter</a>
@@ -27,7 +27,7 @@
               <a href="#">Github</a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
       <div class="main-menu">
         <div class="logo">
@@ -61,13 +61,15 @@
       </div>
     </header>
 
-    <main>
+    <main class="main">
       <section class="hero-banner">
         <!-- Aqui usamos hero banner ya que este tipo de componente se llama así-->
         <div class="hero-banner-content">
-          <h2 class="hero-banner-title">Best food for
-            your taste</h2>
-          <p class="hero-banner-description">Discover delectable cuisine and unforgettable moments in our welcoming, culinary haven.</p>
+          <h2 class="hero-banner-title">Best food for your taste</h2>
+          <p class="hero-banner-description">
+            Discover delectable cuisine and unforgettable moments in our
+            welcoming, culinary haven.
+          </p>
           <div class="hero-banner-buttons">
             <button class="hero-banner-button">Book A Table</button>
             <button class="hero-banner-button">Explore Menu</button>
@@ -77,173 +79,390 @@
       <section class="our-menu">
         <h2 class="our-menu-title">Browse Our Menu</h2>
         <div class="our-menu-cards">
-            <!-- Aqui usamos article porque son cajas con significado por si solas -->
-            <article>
-                <img src="img/Breakfast.svg" alt="Icono del desayuno" type="image/svg+xml">
-                <h3>Breakfast</h3>
-                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-                <a href="#">Explore Menu</a>
-            </article>
-            <article>
-                <img src="img/main-dishes.svg" alt="Icono de platos principales" type="image/svg+xml">
-                <h3>Main Dishes</h3>
-                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-                <a href="#">Explore Menu</a>
-            </article>
-            <article>
-                <img src="img/drinks.svg" alt="Icono de bebidas" type="image/svg+xml">
-                <h3>Drinks</h3>
-                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-                <a href="#">Explore Menu</a>
-            </article>
-            <article>
-                <img src="img/desserts.svg" alt="Icono de postres" type="image/svg+xml">
-                <h3>Desserts</h3>
-                <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
-                <a href="#">Explore Menu</a>
-            </article>
+          <!-- Aqui usamos article porque son cajas con significado por si solas -->
+          <article class="our-menu-card">
+            <img
+              class="our-menu-card-img"
+              src="img/Breakfast.svg"
+              alt="Icono del desayuno"
+              type="image/svg+xml"
+            />
+            <h3 class="our-menu-card-title">Breakfast</h3>
+            <p class="our-menu-card-desc">
+              In the new era of technology we look in the future with certainty
+              and pride for our life.
+            </p>
+            <a href="#">Explore Menu</a>
+          </article>
+          <article class="our-menu-card">
+            <img
+              class="our-menu-card-img"
+              src="img/main-dishes.svg"
+              alt="Icono de platos principales"
+              type="image/svg+xml"
+            />
+            <h3 class="our-menu-card-title">Main Dishes</h3>
+            <p class="our-menu-card-desc">
+              In the new era of technology we look in the future with certainty
+              and pride for our life.
+            </p>
+            <a href="#">Explore Menu</a>
+          </article>
+          <article class="our-menu-card">
+            <img
+              class="our-menu-card-img"
+              src="img/drinks.svg"
+              alt="Icono de bebidas"
+              type="image/svg+xml"
+            />
+            <h3 class="our-menu-card-title">Drinks</h3>
+            <p class="our-menu-card-desc">
+              In the new era of technology we look in the future with certainty
+              and pride for our life.
+            </p>
+            <a href="#">Explore Menu</a>
+          </article>
+          <article class="our-menu-card">
+            <img
+              class="our-menu-card-img"
+              src="img/desserts.svg"
+              alt="Icono de postres"
+              type="image/svg+xml"
+            />
+            <h3 class="our-menu-card-title">Desserts</h3>
+            <p class="our-menu-card-desc">
+              In the new era of technology we look in the future with certainty
+              and pride for our life.
+            </p>
+            <a href="#">Explore Menu</a>
+          </article>
         </div>
       </section>
       <section class="about-us">
         <div class="about-us-info">
-            <img src="img/image-about-us-info.jpg" alt="Imagen de la información acerca de nosotros" type="image/jpeg">
-            <article>
-                <p>Come and visit us</p>
-                <!-- Siguientes 3 parrafos llevan icono delante [phone, mail, location]-->
-                <p>(414) 857 - 0107</p>
-                <p>happytummy@restaurant.com</p>
-                <p>837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles</p>
-            </article>
+          <img
+            class="about-us-img"
+            src="img/image-about-us-info.jpg"
+            alt="Imagen de la información acerca de nosotros"
+            type="image/jpeg"
+          />
+          <article class="about-us-info-card">
+            <p class="about-us-info-card-title">Come and visit us</p>
+            <!-- Siguientes 3 parrafos llevan icono delante [phone, mail, location]-->
+            <p class="about-us-info-card-text">(414) 857 - 0107</p>
+            <p class="about-us-info-card-text">happytummy@restaurant.com</p>
+            <p class="about-us-info-card-text">
+              837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles
+            </p>
+          </article>
         </div>
         <div class="about-us-text">
-            <h2 class="about-us-title">We provide healthy food for your family.</h2>
-            <p>Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.</p>
-            <p>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
-            <a href="#">More About Us</a>
+          <h2 class="about-us-text-title">
+            We provide healthy food for your family.
+          </h2>
+          <p class="about-us-text-par1">
+            Our story began with a vision to create a unique dining experience
+            that merges fine dining, exceptional service, and a vibrant
+            ambiance. Rooted in city's rich culinary culture, we aim to honor
+            our local roots while infusing a global palate.
+          </p>
+          <p class="about-us-text-par2">
+            At place, we believe that dining is not just about food, but also
+            about the overall experience. Our staff, renowned for their warmth
+            and dedication, strives to make every visit an unforgettable event.
+          </p>
+          <a class="about-us-text-button" href="#">More About Us</a>
         </div>
       </section>
       <section class="services">
-        <h2 class="services-title">We also offer unique services for your events</h2>
+        <h2 class="services-title">
+          We also offer unique services for your events
+        </h2>
         <div class="services-cards">
-            <article class="services-card">
-                <img src="img/caterings.jpg" alt="Imagen de la card de catering" type="image/jpeg">
-                <h3>Catering</h3>
-                <p>In the new era of technology we look in the future with certainty for life.</p>
-            </article>
-            <article>
-                <img src="img/birthdays.jpg" alt="Imagen de la card de cumpleaños" type="image/jpeg">
-                <h3>Birthdays</h3>
-                <p>In the new era of technology we look in the future with certainty for life.</p>
-            </article>
-            <article>
-                <img src="img/weddings.jpg" alt="Imagen de la card de bodas" type="image/jpeg">
-                <h3>Weddings</h3>
-                <p>In the new era of technology we look in the future with certainty for life.</p>
-            </article>
-            <article>
-                <img src="img/events.jpg" alt="Imagen de la card de eventos" type="image/jpeg">
-                <h3>Events</h3>
-                <p>In the new era of technology we look in the future with certainty for life.</p>
-            </article>
+          <article class="services-card">
+            <img
+              class="services-card-img"
+              src="img/caterings.jpg"
+              alt="Imagen de la card de catering"
+              type="image/jpeg"
+            />
+            <h3 class="services-card-title">Catering</h3>
+            <p class="services-card-desc">
+              In the new era of technology we look in the future with certainty
+              for life.
+            </p>
+          </article>
+          <article class="services-card">
+            <img
+              class="services-card-img"
+              src="img/birthdays.jpg"
+              alt="Imagen de la card de cumpleaños"
+              type="image/jpeg"
+            />
+            <h3 class="services-card-title">Birthdays</h3>
+            <p class="services-card-desc">
+              In the new era of technology we look in the future with certainty
+              for life.
+            </p>
+          </article>
+          <article class="services-card">
+            <img
+              class="services-card-img"
+              src="img/weddings.jpg"
+              alt="Imagen de la card de bodas"
+              type="image/jpeg"
+            />
+            <h3 class="services-card-title">Weddings</h3>
+            <p class="services-card-desc">
+              In the new era of technology we look in the future with certainty
+              for life.
+            </p>
+          </article>
+          <article class="services-card">
+            <img
+              class="services-card-img"
+              src="img/events.jpg"
+              alt="Imagen de la card de eventos"
+              type="image/jpeg"
+            />
+            <h3 class="services-card-title">Events</h3>
+            <p class="services-card-desc">
+              In the new era of technology we look in the future with certainty
+              for life.
+            </p>
+          </article>
         </div>
       </section>
       <section class="food-delivery">
         <div class="food-delivery-images">
-            <img src="img/delivery-one.jpg" alt="Primera imagen de la sección de delivery" type="image/jpeg">
-            <img src="img/delivery-two.jpg" alt="Segunda imagen de la sección de delivery" type="image/jpeg">
-            <img src="img/delivery-three.jpg" alt="Terce imagen de la sección de delivery" type="image/jpeg">
+          <img
+            class="food-delivery-image"
+            src="img/delivery-one.jpg"
+            alt="Imagen de un chef cocinando unos platos"
+            type="image/jpeg"
+          />
+          <img
+            class="food-delivery-image"
+            src="img/delivery-two.jpg"
+            alt="Imagen de una sarten con una comida cocinada dentro"
+            type="image/jpeg"
+          />
+          <img
+            class="food-delivery-image"
+            src="img/delivery-three.jpg"
+            alt="Imagen de varias brochetas de carne cocinadas"
+            type="image/jpeg"
+          />
         </div>
         <div class="food-delivery-text">
-            <h2 class="food-delivery-title">Fastest Food Delivery in City</h2>
-            <p>Our visual designer lets you quickly and of drag a down your way to customapps for both keep desktop. </p>
-            <!-- Siguientes tres parrafos llevan icono delante [clock, receipt-tax y shopping cart] -->
-            <p>Delivery within 30 minutes</p>
-            <p>Best Offer & Prices</p>
-            <p>Online Services Available</p>
+          <h2 class="food-delivery-title">Fastest Food Delivery in City</h2>
+          <p class="food-delivery-desc">
+            Our visual designer lets you quickly and of drag a down your way to
+            customapps for both keep desktop.
+          </p>
+          <!-- Siguientes tres parrafos llevan icono delante [clock, receipt-tax y shopping cart] -->
+          <ul class="food-delivery-list">
+            <li class="food-delivery-list-li">Delivery within 30 minutes</li>
+            <li class="food-delivery-list-li">Best Offer & Prices</li>
+            <li class="food-delivery-list-li">Online Services Available</li>
+          </ul>
         </div>
       </section>
-      <section class="customers-says">
-        <h2 class="customers-says-title">What Our Customers Say</h2>
-        <div class="customers-says-cards">
-            <article class="customers-says-card">
-                <h3 class="customer-says-card-title">“The best restaurant”</h3>
-                <p>Last night, we dined at place and were simply blown away. From the moment we stepped in, we were enveloped in an inviting atmosphere and greeted with warm smiles.</p>
-                <div class="customer-says-card-content">
-                    <img src="img/sophire-robson.jpg" alt="Imagen de Sophire Robson" type="image/jpeg">
-                    <div class="customer-says-card-content-text">
-                        <h4 class="customer-says-card-content-text-name">Sophire Robson</h4>
-                        <p>Los Angeles, CA</p>
-                    </div>
-                </div>
-            </article>
-            <article class="customers-says-card">
-                <h3 class="customer-says-card-title">“Simply delicious”</h3>
-                <p>Place exceeded my expectations on all fronts. The ambiance was cozy and relaxed, making it a perfect venue for our anniversary dinner. Each dish was prepared and beautifully presented.</p>
-                <div class="customer-says-card-content">
-                    <img src="img/matt-cannon.jpg" alt="Imagen de Matt Cannon" type="image/jpeg">
-                    <div class="customer-says-card-content-text">
-                        <h4 class="customer-says-card-content-text-name">Matt Cannon</h4>
-                        <p>San Diego, CA</p>
-                    </div>
-                </div>
-            </article>
-            <article class="customers-says-card">
-                <h3 class="customer-says-card-title">“One of a kind restaurant”</h3>
-                <p>The culinary experience at place is first to none. The atmosphere is vibrant, the food - nothing short of extraordinary. The food was the highlight of our evening. Highly recommended.</p>
-                <div class="customer-says-card-content">
-                    <img src="img/andy-smith.jpg" alt="Imagen de Andy Smith" type="image/jpeg">
-                    <div class="customer-says-card-content-text">
-                        <h4 class="customer-says-card-content-text-name">Andy Smith</h4>
-                        <p>San Francisco, CA</p>
-                    </div>
-                </div>
-            </article>
+      <section class="opinions">
+        <h2 class="opinions-title">What Our Customers Say</h2>
+        <div class="opinions-cards">
+          <article class="opinions-card">
+            <h3 class="opinions-card-title">“The best restaurant”</h3>
+            <p class="opinions-card-desc">
+              Last night, we dined at place and were simply blown away. From the
+              moment we stepped in, we were enveloped in an inviting atmosphere
+              and greeted with warm smiles.
+            </p>
+            <div class="opinions-card-author">
+              <img class="opinions-card-author-img"
+                src="img/sophire-robson.jpg"
+                alt="Imagen de perfil de Sophire Robson"
+                type="image/jpeg"
+              />
+                <p class="opinions-card-author-name">
+                  Sophire Robson
+                </p>
+                <p class="opinions-card-author-city">Los Angeles, CA</p>
+            </div>
+          </article>
+          <article class="opinions-card">
+            <h3 class="opinions-card-title">“Simply delicious”</h3>
+            <p class="opinions-card-desc">
+              Place exceeded my expectations on all fronts. The ambiance was
+              cozy and relaxed, making it a perfect venue for our anniversary
+              dinner. Each dish was prepared and beautifully presented.
+            </p>
+            <div class="opinions-card-author">
+              <img class="opinions-card-author-img"
+                src="img/matt-cannon.jpg"
+                alt="Imagen de perfil de Matt Cannon"
+                type="image/jpeg"
+              />
+                <p class="opinions-card-author-name">Matt Cannon</p>
+                <p class="opinions-card-author-city">San Diego, CA</p>
+            </div>
+          </article>
+          <article class="opinions-card">
+            <h3 class="opinions-card-title">“One of a kind restaurant”</h3>
+            <p class="opinions-card-desc">
+              The culinary experience at place is first to none. The atmosphere
+              is vibrant, the food - nothing short of extraordinary. The food
+              was the highlight of our evening. Highly recommended.
+            </p>
+            <div class="opinions-card-author">
+              <img class="opinions-card-author-img"
+                src="img/andy-smith.jpg"
+                alt="Imagen de perfil de Andy Smith"
+                type="image/jpeg"
+              />
+                <p class="opinions-card-author-name">Andy Smith</p>
+                <p class="opinions-card-author-city">San Francisco, CA</p>
+            </div>
+          </article>
         </div>
       </section>
-      <section class="articles">
-        <div class="articles-header">
-            <h2 class="articles-header-title">Our Blog & Articles</h2>
-            <button class="articles-header-button">Read All Articles</button>
+      <section class="blog">
+        <div class="blog-header">
+          <h2 class="blog-header-title">Our Blog & Articles</h2>
+          <a href="blog-details.html" class="blog-header-button"
+            >Read All Articles</a
+          >
         </div>
-        <div class="articles-featured">
-            <img src="img/burguer.jpg" alt="Imagen de la hamburguesa" type="image/jpeg">
-            <p>January 3, 2023</p>
-            <h3 class="articles-featured-title">The secret tips & tricks to prepare a perfect burger & pizza for our customers</h3>
-            <p>Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper adipiscing massa gravida nisi cras enim quis nibholm varius amet gravida ut facilisis neque egestas.</p>
-        </div>
-        <div class="articles-cards">
-            <article class="articles-card">
-                <img src="img/potatoes.jpg" alt="Imagen de las papas" type="image/jpeg">
-                <p>January 3, 2023</p>
-                <h3 class="articles-card-title">How to prepare the perfect french fries in an air fryer</h3>
-            </article>
-            <article class="articles-card">
-                <img src="img/cupcakes.jpg" alt="Imagen de los cupcakes" type="image/jpeg">
-                <p>January 3, 2023</p>
-                <h3 class="articles-card-title">7 delicious cheesecake recipes you can prepare</h3>
-            </article>
-            <article class="articles-card">
-                <img src="img/chicken-fingers.jpg" alt="Imagen de los chicken fingers" type="image/jpeg">
-                <p>January 3, 2023</p>
-                <h3 class="articles-card-title">How to prepare delicious chicken tenders</h3>
-            </article>
-            <article class="articles-card">
-                <img src="img/pizza.jpg" alt="Imagen de la pizza" type="image/jpeg">
-                <p>January 3, 2023</p>
-                <h3 class="articles-card-title">5 great pizza restaurants you should visit this city</h3>
-            </article>
+        <div class="blog-articles">
+          <article class="blog-article">
+            <img class="blog-article-img"
+              src="img/burguer.jpg"
+              alt="Imagen de una hamburguesa"
+              type="image/jpeg"
+            />
+            <time class="blog-article-date">January 3, 2023</time>
+            <h3 class="blog-article-title">
+              The secret tips & tricks to prepare a perfect burger & pizza for
+              our customers
+            </h3>
+            <p class="blog-article-desc">
+              Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim
+              semper adipiscing massa gravida nisi cras enim quis nibholm varius
+              amet gravida ut facilisis neque egestas.
+            </p>
+          </article>
+          <article class="blog-article">
+            <img class="blog-article-img"
+              src="img/potatoes.jpg"
+              alt="Imagen de las papas"
+              type="image/jpeg"
+            />
+            <time class="blog-article-date">January 3, 2023</time>
+            <h3 class="blog-article-title">
+              How to prepare the perfect french fries in an air fryer
+            </h3>
+          </article>
+          <article class="blog-article">
+            <img class="blog-article-img"
+              src="img/cupcakes.jpg"
+              alt="Imagen de los cupcakes"
+              type="image/jpeg"
+            />
+            <time class="blog-article-date">January 3, 2023</time>
+            <h3 class="blog-article-title">
+              7 delicious cheesecake recipes you can prepare
+            </h3>
+          </article>
+          <article class="blog-article">
+            <img class="blog-article-img"
+              src="img/chicken-fingers.jpg"
+              alt="Imagen de los chicken fingers"
+              type="image/jpeg"
+            />
+            <time class="blog-article-date">January 3, 2023</time>
+            <h3 class="blog-article-title">
+              How to prepare delicious chicken tenders
+            </h3>
+          </article>
+          <article class="blog-article">
+            <img class="blog-article-img"
+              src="img/pizza.jpg"
+              alt="Imagen de la pizza"
+              type="image/jpeg"
+            />
+            <time class="blog-article-date">January 3, 2023</time>
+            <h3 class="blog-article-title">
+              5 great pizza restaurants you should visit this city
+            </h3>
+          </article>
         </div>
       </section>
     </main>
 
-    <footer>
-        <div class="footer-content">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <footer class="footer">
+      <div class="footer-info">
+        <div class="footer-info-company">
+          <div class="logo">
+            <img
+              src="img/japanese-food.svg"
+              alt="Logo del restaurante Bistro Bliss"
+              class="logo"
+            />
+            <h1>Bistro Bliss</h1>            
+          </div>
+          <p class="footer-info-company-desc">In the new era of technology we look a in the future with certainty and pride to for our company and.</p>
+          <nav class="top-bar-social">
+            <ul>
+              <li>
+                <a href="#">Twitter</a>
+              </li>
+              <li>
+                <a href="#">Facebook</a>
+              </li>
+              <li>
+                <a href="#">Instagram</a>
+              </li>
+              <li>
+                <a href="#">Github</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <p></p>
+        <div class="footer-info-pages">
+          <h3 class="footer-info-pages-title">Pages</h3>
+          <ul class="footer-info-pages-menu">
+            <li class="footer-info-pages-item">Home</li>
+            <li class="footer-info-pages-item">About</li>
+            <li class="footer-info-pages-item">Menu</li>
+            <li class="footer-info-pages-item">Pricing</li>
+            <li class="footer-info-pages-item">Blog</li>
+            <li class="footer-info-pages-item">Contact</li>
+            <li class="footer-info-pages-item">Delivery</li>
+          </ul>
+        </div>
+        <div class="footer-info-utility">
+          <h3 class="footer-info-utility-title">Utility Pages</h3>
+          <ul class="footer-info-utility-menu">
+            <li class="footer-info-utility-menu-item">Start Here</li>
+            <li class="footer-info-utility-menu-item">Styleguide</li>
+            <li class="footer-info-utility-menu-item">Password Protected</li>
+            <li class="footer-info-utility-menu-item">404 Not Found</li>
+            <li class="footer-info-utility-menu-item">Licenses</li>
+            <li class="footer-info-utility-menu-item">Changelog</li>
+            <li class="footer-info-utility-menu-item">View More</li>
+          </ul>
+        </div>
+        <div class="footer-info-instagram">
+          <h3 class="footer-info-instagram-title">Follow Us On Instagram</h3>
+          <div class="footer-info-instagram-grid">
+            <img class="footer-info-instagram-img" src="img/insta1.jpg" alt="Primera imagen de Instagram">
+            <img class="footer-info-instagram-img" src="img/insta2.jpg" alt="Segunda imagen de Instagram">
+            <img class="footer-info-instagram-img" src="img/insta3.jpg" alt="Tercera imagen de Instagram">
+            <img class="footer-info-instagram-img" src="img/insta4.jpg" alt="Cuarta imagen de Instagram">
+          </div>
+        </div>
+      </div>
+      <p class="footer-copyright">Copyright © 2023 Hashtag Developer. All Rights Reserved</p>
     </footer>
   </body>
 </html>
