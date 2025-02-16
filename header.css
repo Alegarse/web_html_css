@@ -1,0 +1,30 @@
+.top-bar  {
+    background-color: #474747;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-contact {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.top-bar-social img {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
