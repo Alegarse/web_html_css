@@ -6,31 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bistro Bliss</title>
     <!-- Importamos la hoja de estilos -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     
     <header class="header">
-      <div class="top-bar">
-        <div class="top-bar-contact">
-          <a href="tel:4148570107"><img src="img/phone.svg" alt="Icono del telefono" type="image/svg+xml"/>(414) 857 - 0107</a>
-          <a href="mailto:yummy@bistrobliss"><img src="img/mail.svg" alt="Icono del email" type="image/svg+xml"/>yummy@bistrobliss</a>
-        </div>
-        <nav class="top-bar-social">
-          <ul>
-            <li>
-              <a href="#">Twitter</a>
-            </li>
-            <li>
-              <a href="#">Facebook</a>
-            </li>
-            <li>
-              <a href="#">Instagram</a>
-            </li>
-            <li>
-              <a href="#">Github</a>
-            </li>
-          </ul>
+      <div class="bg-dark-grey">
+        <nav class="top-bar">
+          <div class="top-bar-contact">
+            <a href="tel:4148570107"><img src="img/phone.svg" alt="Icono del telefono" type="image/svg+xml"/>(414) 857 - 0107</a>
+            <a href="mailto:yummy@bistrobliss"><img src="img/mail.svg" alt="Icono del email" type="image/svg+xml"/>yummy@bistrobliss</a>
+          </div>
+          <nav class="top-bar-social">
+            <ul class="top-bar-social-menu">
+              <li>
+                <a href="#">
+                  <img src="img/twitter.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/">
+                  <img src="img/facebook.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/instagram.svg" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/github.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </nav>
         </nav>
       </div>
       <div class="main-menu">
@@ -43,7 +53,7 @@
           <h1>Bistro Bliss</h1>
         </div>
         <nav class="menu">
-          <ul>
+          <ul class="menu-list">
             <li>
               <a href="#">Home</a>
             </li>
@@ -61,13 +71,12 @@
             </li>
           </ul>
         </nav>
-        <button class="button button-red">Book a table</button>
+        <button class="button">Book a table</button>
       </div>
     </header>
 
     <main class="main">
       <section class="hero-banner">
-        <!-- Aqui usamos hero banner ya que este tipo de componente se llama así-->
         <div class="hero-banner-content">
           <h2 class="hero-banner-title">Best food for your taste</h2>
           <p class="hero-banner-description">
@@ -75,8 +84,8 @@
             welcoming, culinary haven.
           </p>
           <div class="hero-banner-buttons">
-            <button class="hero-banner-button button-red">Book A Table</button>
-            <button class="hero-banner-button">Explore Menu</button>
+            <button class="button button-xl button-red">Book A Table</button>
+            <button class="button button-xl">Explore Menu</button>
           </div>
         </div>
       </section>
