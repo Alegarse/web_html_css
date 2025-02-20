@@ -1,0 +1,72 @@
+.recipe-body {
+    display: flex;
+    color: #182226;
+    max-width: 81rem;
+}
+
+.recipe-ingredients {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-ingredients-title {
+    max-width: 28.81rem;
+    font-size: 3.437rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.recipe-ingredient {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+}
+
+.recipe-ingredient {
+    margin-bottom: 1.25rem;
+}
+
+.recipe-title {
+    font-weight: 600;
+}
+
+.title1 {
+    margin-bottom: 3.125rem;
+}
+
+.title2 {
+    margin: 3rem 0;
+}
+
+.recipe-checkbox input[type="checkbox"] {
+    appearance: none;
+    border: 1px solid;
+    padding: 10px;
+    display: inline-flex;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    gap:1.25rem;
+}
+
+label input[type="checkbox"] ::after{
+    input [type="checkbox"]::after {
+    appearance: none;
+    border: 1px solid;
+    padding: 0 auto;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+/* Interior con after speudoelemento*/
+/* y usar pseudo clase checked */
+.ingredients {
+    gap: 20px;
+}
+  
+
+.ingredients {
+    font-weight: 500;
+}

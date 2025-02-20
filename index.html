@@ -7,12 +7,21 @@
     <title>Bistro Bliss</title>
     <!-- Importamos la hoja de estilos -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   </head>
   <body>
     
     <header class="header">
+      <style>
+        h1 {
+          font-size: clamp(0.875rem, -1.3125rem + 7vw, 2.625rem);
+        }
+      </style>
       <div class="bg-dark-grey">
-        <nav class="top-bar">
+        <nav class="top-bar container">
           <div class="top-bar-contact">
             <a href="tel:4148570107"><img src="img/phone.svg" alt="Icono del telefono" type="image/svg+xml"/>(414) 857 - 0107</a>
             <a href="mailto:yummy@bistrobliss"><img src="img/mail.svg" alt="Icono del email" type="image/svg+xml"/>yummy@bistrobliss</a>
@@ -20,7 +29,7 @@
           <nav class="top-bar-social">
             <ul class="top-bar-social-menu">
               <li>
-                <a href="#">
+                <a href="https://twitter.com/">
                   <img src="img/twitter.svg" alt="">
                 </a>
               </li>
@@ -30,12 +39,12 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/">
                   <img src="img/instagram.svg" alt="">
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://github.com">
                   <img src="img/github.svg" alt="">
                 </a>
               </li>
@@ -43,7 +52,7 @@
           </nav>
         </nav>
       </div>
-      <div class="main-menu">
+      <div class="main-menu container">
         <div class="logo">
           <img
             src="img/japanese-food.svg"
@@ -89,68 +98,78 @@
           </div>
         </div>
       </section>
-      <section class="our-menu">
-        <h2 class="our-menu-title">Browse Our Menu</h2>
-        <div class="our-menu-cards">
-          <!-- Aqui usamos article porque son cajas con significado por si solas -->
-          <article class="our-menu-card">
-            <img
-              class="our-menu-card-img"
-              src="img/Breakfast.svg"
-              alt="Icono del desayuno"
-              type="image/svg+xml"
-            />
-            <h3 class="our-menu-card-title">Breakfast</h3>
-            <p class="our-menu-card-desc">
-              In the new era of technology we look in the future with certainty
-              and pride for our life.
-            </p>
-            <a href="#">Explore Menu</a>
-          </article>
-          <article class="our-menu-card">
-            <img
-              class="our-menu-card-img"
-              src="img/main-dishes.svg"
-              alt="Icono de platos principales"
-              type="image/svg+xml"
-            />
-            <h3 class="our-menu-card-title">Main Dishes</h3>
-            <p class="our-menu-card-desc">
-              In the new era of technology we look in the future with certainty
-              and pride for our life.
-            </p>
-            <a href="#">Explore Menu</a>
-          </article>
-          <article class="our-menu-card">
-            <img
-              class="our-menu-card-img"
-              src="img/drinks.svg"
-              alt="Icono de bebidas"
-              type="image/svg+xml"
-            />
-            <h3 class="our-menu-card-title">Drinks</h3>
-            <p class="our-menu-card-desc">
-              In the new era of technology we look in the future with certainty
-              and pride for our life.
-            </p>
-            <a href="#">Explore Menu</a>
-          </article>
-          <article class="our-menu-card">
-            <img
-              class="our-menu-card-img"
-              src="img/desserts.svg"
-              alt="Icono de postres"
-              type="image/svg+xml"
-            />
-            <h3 class="our-menu-card-title">Desserts</h3>
-            <p class="our-menu-card-desc">
-              In the new era of technology we look in the future with certainty
-              and pride for our life.
-            </p>
-            <a href="#">Explore Menu</a>
-          </article>
-        </div>
-      </section>
+      <div class="bg-white">
+        <section class="our-menu">
+          <h2 class="our-menu-title">Browse Our Menu</h2>
+          <div class="our-menu-cards">
+            <!-- Aqui usamos article porque son cajas con significado por si solas -->
+            <article class="our-menu-card">
+              <div class="our-menu-card-img-content">
+                <img
+                  class="our-menu-card-img"
+                  src="img/Breakfast.svg"
+                  alt="Icono del desayuno"
+                  type="image/svg+xml"
+                />
+              </div>
+              <h3 class="our-menu-card-title">Breakfast</h3>
+              <p class="our-menu-card-desc">
+                In the new era of technology we look in the future with certainty
+                and pride for our life.
+              </p>
+              <a href="#" class="our-menu-card-link">Explore Menu</a>
+            </article>
+            <article class="our-menu-card">
+              <div class="our-menu-card-img-content">
+                <img
+                  class="our-menu-card-img"
+                  src="img/main-dishes.svg"
+                  alt="Icono de platos principales"
+                  type="image/svg+xml"
+                />
+              </div>
+              <h3 class="our-menu-card-title">Main Dishes</h3>
+              <p class="our-menu-card-desc">
+                In the new era of technology we look in the future with certainty
+                and pride for our life.
+              </p>
+              <a href="#" class="our-menu-card-link">Explore Menu</a>
+            </article>
+            <article class="our-menu-card">
+              <div class="our-menu-card-img-content">
+                <img
+                  class="our-menu-card-img"
+                  src="img/drinks.svg"
+                  alt="Icono de bebidas"
+                  type="image/svg+xml"
+                />
+              </div>
+              <h3 class="our-menu-card-title">Drinks</h3>
+              <p class="our-menu-card-desc">
+                In the new era of technology we look in the future with certainty
+                and pride for our life.
+              </p>
+              <a href="#" class="our-menu-card-link">Explore Menu</a>
+            </article>
+            <article class="our-menu-card">
+              <div class="our-menu-card-img-content">
+                <img
+                  class="our-menu-card-img"
+                  src="img/desserts.svg"
+                  alt="Icono de postres"
+                  type="image/svg+xml"
+                />
+              </div>
+              <h3 class="our-menu-card-title">Desserts</h3>
+              <p class="our-menu-card-desc">
+                In the new era of technology we look in the future with certainty
+                and pride for our life.
+              </p>
+              <a href="#" class="our-menu-card-link">Explore Menu</a>
+            </article>
+          </div>
+        </section>
+      </div>
       <section class="about-us">
         <div class="about-us-info">
           <img
@@ -159,38 +178,29 @@
             alt="Imagen de la información acerca de nosotros"
             type="image/jpeg"
           />
-          <article class="about-us-info-card">
-            <p class="about-us-info-card-title">Come and visit us</p>
-            <!-- Siguientes 3 parrafos llevan icono delante [phone, mail, location]-->
-            <p class="about-us-info-card-text">
-              <img src="img/phone.svg" alt="Icono del telefono" type="image/svg+xml"/>(414) 857 - 0107
-            </p>
-            <p class="about-us-info-card-text">
-              <img src="img/mail.svg" alt="Icono del email" type="image/svg+xml"/>happytummy@restaurant.com
-            </p>
-            <p class="about-us-info-card-text">
-              <img src="img/phone.svg" alt="Icono de la ubicación" type="image/svg+xml"/>
-              837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles
-            </p>
-            </div>
+          <article class="about-us-info-box">
+            <p class="about-us-info-box-title">Come and visit us</p>
+            <p class="about-us-info-box-phone">(414) 857 - 0107</p>
+            <p class="about-us-info-box-mail">happytummy@restaurant.com</p>
+            <p class="about-us-info-box-address">837 W. Marshall Lane Marshalltown, IA 50158, Los Angeles</p>
           </article>
         </div>
         <div class="about-us-text">
-          <h2 class="about-us-text-title">
+          <h2 class="about-us-title">
             We provide healthy food for your family.
           </h2>
-          <p class="about-us-text-par1">
+          <p class="about-us-desc-main">
             Our story began with a vision to create a unique dining experience
             that merges fine dining, exceptional service, and a vibrant
             ambiance. Rooted in city's rich culinary culture, we aim to honor
             our local roots while infusing a global palate.
           </p>
-          <p class="about-us-text-par2">
+          <p class="about-us-desc">
             At place, we believe that dining is not just about food, but also
             about the overall experience. Our staff, renowned for their warmth
             and dedication, strives to make every visit an unforgettable event.
           </p>
-          <a class="about-us-text-button" href="#">More About Us</a>
+          <a class="button button-xl about-us-link" href="#">More About Us</a>
         </div>
       </section>
       <section class="services">

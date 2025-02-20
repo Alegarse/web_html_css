@@ -1,0 +1,37 @@
+.recipe-instructions {
+    display: flex;
+    flex-direction: column;
+    max-width: 55.56rem;
+    padding-left: 3rem;
+    font-family: "DM Sans";
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.recipe-instructions-title {
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.recipe-instructions-text {
+    margin-bottom: 2.5rem;
+}
+
+.recipe-instructions li {
+    margin-left: 24px;
+}
+
+.instruction-step a {
+    font-weight: 700;
+}
+
+.recipe-instructions ol li::marker {
+    font-weight: 700;
+}
+
+.recipe-instructions img {
+    border-radius: 0.75rem;
+    margin: 3rem 0;
+}

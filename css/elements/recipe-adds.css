@@ -1,0 +1,27 @@
+.more-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.more-articles-title {
+    font-size: 3.437rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.more-articles-text {
+    max-width: 39.5rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-bottom: 4.5rem;
+}
+
+.more-articles-list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}

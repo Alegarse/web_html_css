@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(rgb(255 255 255 / 0.5), rgb(255 255 255 / 0.5)), url("../img/hero-banner.jpg");
+    max-width: 100rem;
+    margin: 0 auto;
+    background-image:linear-gradient(rgb(255 255 255 / 0.5), rgb(255 255 255 / 0.5)), url("../../img/hero-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,7 +18,7 @@
 
 .hero-banner-title {
     font-size: 6.25rem;
-    color: #474747;
+    color: var(--color-dark-grey);
 }
 
 .hero-banner-description {

@@ -1,358 +1,313 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <!-- Codificación -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog Details</title>
-    <!-- Importamos la hoja de estilos -->
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="bg-dark-grey">
-        <nav class="top-bar">
-          <div class="top-bar-contact">
-            <a href="tel:4148570107"><img src="img/phone.svg" alt="Icono del telefono" type="image/svg+xml"/>(414) 857 - 0107</a>
-            <a href="mailto:yummy@bistrobliss"><img src="img/mail.svg" alt="Icono del email" type="image/svg+xml"/>yummy@bistrobliss</a>
-          </div>
-          <nav class="top-bar-social">
-            <ul class="top-bar-social-menu">
-              <li>
-                <a href="#">
-                  <img src="img/twitter.svg" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/">
-                  <img src="img/facebook.svg" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img/instagram.svg" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img/github.svg" alt="">
-                </a>
-              </li>
-            </ul>
-          </nav>
+
+<head>
+  <!-- Codificación -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Details</title>
+  <!-- Importamos la hoja de estilos -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="bg-dark-grey">
+      <nav class="top-bar">
+        <div class="top-bar-contact">
+          <a href="tel:4148570107"><img src="img/phone.svg" alt="Icono del telefono" type="image/svg+xml" />(414) 857 -
+            0107</a>
+          <a href="mailto:yummy@bistrobliss"><img src="img/mail.svg" alt="Icono del email"
+              type="image/svg+xml" />yummy@bistrobliss</a>
+        </div>
+        <nav class="top-bar-social">
+          <ul class="top-bar-social-menu">
+            <li>
+              <a href="#">
+                <img src="img/twitter.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/">
+                <img src="img/facebook.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/instagram.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="img/github.svg" alt="" />
+              </a>
+            </li>
+          </ul>
         </nav>
+      </nav>
+    </div>
+    <div class="main-menu">
+      <div class="logo">
+        <img src="img/japanese-food.svg" alt="Logo del restaurante Bistro Bliss" class="logo" />
+        <h1>Bistro Bliss</h1>
       </div>
-      <div class="main-menu">
+      <nav class="menu">
+        <ul class="menu-list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Pages</a>
+          </li>
+          <li>
+            <a href="#">Service</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button">Book a table</button>
+    </div>
+  </header>
+
+  <main class="main-recipe">
+    <h2 class="recipe-header-title">
+      The secret tips & tricks to prepare a perfect strawberry cream cheescake
+    </h2>
+    <img class="recipe-header-img" src="img/cheescake.jpg" alt="Imagen de un cheesecake de fresas" type="image/jpg" />
+    <section class="recipe-body">
+      <div class="recipe-ingredients">
+        <h3 class="recipe-ingredients-title">Ingredients</h3>
+        <div class="recipe-ingredient">
+          <p class="recipe-title title1">For the crust</p>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item1" checked />
+            <label class="ingredients" for="item1">400g graham crackers</label>
+          </div>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item2" />
+            <label class="ingredients" for="item2">150g unsalted butters, melted</label>
+          </div>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item3" />
+            <label class="ingredients" for="item3">Online Services Available</label>
+          </div>
+        </div>
+        <div class="recipe-ingredient">
+          <p class="recipe-title title2">For the cheesecake</p>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item1"/>
+            <label class="ingredients" for="item1"></label>300g marshmallows</label>
+          </div>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item2" />
+            <label class="ingredients" for="item2"></label>75g unsalted butter, melted</label>
+          </div>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item3" />
+            <label class="ingredients" for="item3"></label>500g Philadelphia cream cheese, softneted</label>
+          </div>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item4" />
+            <label class="ingredients" for="item4"></label>250ml thickened/whipping cream, warm</label>
+          </div>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item5" />
+            <label class="ingredients" for="item5"></label>3 tbsp powdered gelatin + 3 tbsp water</label>
+          </div>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item6" />
+            <label class="ingredients" for="item6"></label>5 drops purple food gel</label>
+          </div>
+          <div class="recipe-checkbox">
+            <input type="checkbox" id="item7" />
+            <label class="ingredients" for="item7"></label>3 drops blue food gel</label>
+          </div>
+        </div>
+      </div>
+      <div class="recipe-instructions">
+        <h3 class="recipe-instructions-title">Instructions</h3>
+        <p class="recipe-instructions-text">
+          For a recipe with so few ingredients (cream cheese, eggs, sugar,
+          sour cream, vanilla & salt), it took a lot longer than you might
+          think to develop the perfect version. I’ve shared a few cheesecake
+          variations in the past but getting a perfected classic version took
+          lots of testing. Finally, here we are.
+        </p>
+        <ol type="1" class="recipe-instructions-steps">
+          <li class="instruction-step">
+            <a class="instruction-step-title">Use room temperature ingredients:
+            </a>
+            It’s important that your cream cheese comes to room temperature
+            before you begin making your cheesecake. This will prevent any
+            lumps and ensure a cheesecake with a smooth, creamy texture.
+            However, to ensure that all of your ingredients blend together
+            nicely and give you the desired result, they should all be at room
+            temperature before you begin.
+          </li>
+          <li class="instruction-step">
+            <a class="instruction-step-title">Take it easy on the eggs: </a>
+            Over-beating your eggs is one of the quickest ways to ruin a
+            cheesecake. Over-beating can ruin the texture and can cause
+            cracks. To prevent this, lightly scramble each egg before adding
+            it into your batter. Keep your mixer on low speed and stir
+            until just combined. Be sure to pause after each addition and
+            scrape down the sides and bottom of your mixing bowl.
+          </li>
+          <img class="instruction-step-img" src="img/recipe-step1.jpg"
+            alt="Imagen de la preparación de la receta donde se vierte la masa en la base" type="image/jpg" />
+          <li class="instruction-step">
+            <a class="intruction-step-title">Don’t open the oven: </a>
+            I know how tempting it can be to want to check on your perfect,
+            beautiful cheesecake, but wait until it’s finished baking (or
+            close to it) before opening the oven door! Yes, you will have to
+            test for doneness at some point and there’s a real possibility it
+            will need more time in the oven, but minimize opening the oven as
+            much as possible.Opening the oven door can drastically reduce the
+            temperature of your oven, which will slow the baking process and
+            might cause your cheesecake to sink or crack.
+          </li>
+          <li class="instruction-step">
+            <a class="intruction-step-title">Free your crust!: </a>
+            Once your cheesecake is done baking, allow it to cool for 10
+            minutes on top of the stove. Then, run a knife around the inside
+            of the springform pan to loosen the crust from the sides.
+          </li>
+          <li class="instruction-step">
+            <a class="intruction-step-title">Cool at room temperature before moving to the fridge:
+            </a>
+            I always let my cheesecake come to room temperature before
+            chilling. For bests results, let it cool as gradually as possible.
+            I put mine on top of my oven (the warmest spot in my house) so it
+            can gradually cool off as the oven does. This pre-chilling cooling
+            period can take an hour or two, but it’s worth it. An abrupt
+            temperature change (moving the cheesecake directly from oven to
+            fridge) is likely to make it crack.
+          </li>
+          <img class="instruction-step-img" src="img/recipe-step2.jpg"
+            alt="Imagen de la preparación de la receta donde se ve la masa entera con el relleno" type="image/jpg" />
+        </ol>
+      </div>
+    </section>
+    <section class="more-articles">
+      <h3 class="more-articles-title">Read More Articles</h3>
+      <p class="more-articles-text">
+        We consider all the drivers of change gives you the components you
+        need to change to create a truly happens.
+      </p>
+      <div class="more-articles-list">
+        <article class="articles-card">
+          <img class="articles-card-img" src="img/article1.jpg" alt="Imagen donde se está preparando un plato de sushi"
+            type="image/jpeg" />
+          <time datetime="" class="article-card-date">January 3, 2023</time>
+          <h3 class="articles-card-title">
+            How to prepare a delicious gluten free sushi
+          </h3>
+        </article>
+        <article class="articles-card">
+          <img class="articles-card-img" src="img/article2.jpg" alt="Imagen donde se están preparando unos postres"
+            type="image/jpeg" />
+          <time datetime="" class="article-card-date">January 3, 2023</time>
+          <h3 class="articles-card-title">
+            Exclusive baking lessons from the pastry king
+          </h3>
+        </article>
+        <article class="articles-card">
+          <img class="articles-card-img" src="img/article3.jpg"
+            alt="Imagen de un plato de comida con patatas fritas en airfryer" type="image/jpeg" />
+          <time datetime="" class="article-card-date">January 3, 2023</time>
+          <h3 class="articles-card-title">
+            How to prepare the perfect fries in an air fryer
+          </h3>
+        </article>
+        <article class="articles-card">
+          <img class="articles-card-img" src="img/article4.jpg"
+            alt="Imagen de unos nuggets de pollo abiertos por la mitad" type="image/jpeg" />
+          <time datetime="" class="article-card-date">January 3, 2023</time>
+          <h3 class="articles-card-title">
+            How to prepare delicious chicken tenders
+          </h3>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-info">
+      <div class="footer-info-company">
         <div class="logo">
-          <img
-            src="img/japanese-food.svg"
-            alt="Logo del restaurante Bistro Bliss"
-            class="logo"
-          />
+          <img src="img/japanese-food.svg" alt="Logo del restaurante Bistro Bliss" class="logo" />
           <h1>Bistro Bliss</h1>
         </div>
-        <nav class="menu">
-          <ul class="menu-list">
+        <p class="footer-info-company-desc">
+          In the new era of technology we look a in the future with certainty
+          and pride to for our company and.
+        </p>
+        <nav class="top-bar-social">
+          <ul>
             <li>
-              <a href="index.html">Home</a>
+              <a href="#">Twitter</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#">Facebook</a>
             </li>
             <li>
-              <a href="#">Pages</a>
+              <a href="#">Instagram</a>
             </li>
             <li>
-              <a href="#">Service</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
+              <a href="#">Github</a>
             </li>
           </ul>
         </nav>
-        <button class="button">Book a table</button>
       </div>
-    </header>
-
-    <main class="main">
-      <section class="recipe-header">
-        <h2 class="recipe-header-title">
-          The secret tips & tricks to prepare a perfect strawberry cream
-          cheescake
-        </h2>
-        <img
-          class="recipe-header-img"
-          src="img/cheescake.jpg"
-          alt="Imagen de un cheesecake de fresas"
-          type="image/jpg"
-        />
-      </section>
-      <section class="recipe-body">
-        <div class="recipe-ingredients">
-          <h3 class="recipe-ingredients-title">Ingredients</h3>
-          <div class="recipe-ingredient">
-            <p class="recipe-title">For the crust</p>
-            <label class="ingredients" for="item1"
-              ><input type="checkbox" id="item1" checked />400g graham
-              crackers</label
-            >
-            <label class="ingredients" for="item2"
-              ><input type="checkbox" id="item2" />150g unsalted butters,
-              melted</label
-            >
-            <label class="ingredients" for="item3"
-              ><input type="checkbox" id="item3" />Online Services
-              Available</label
-            >
-          </div>
-          <div class="recipe-ingredient">
-            <p class="recipe-title">For the cheesecake</p>
-            <label class="ingredients" for="item1"
-              ><input type="checkbox" id="item1" />300g marshmallows</label
-            >
-            <label class="ingredients" for="item2"
-              ><input type="checkbox" id="item2" />75g unsalted butter,
-              melted</label
-            >
-            <label class="ingredients" for="item3"
-              ><input type="checkbox" id="item3" />500g Philadelphia cream
-              cheese, softneted</label
-            >
-            <label class="ingredients" for="item4"
-              ><input type="checkbox" id="item4" />250ml thickened/whipping
-              cream, warm</label
-            >
-            <label class="ingredients" for="item5"
-              ><input type="checkbox" id="item5" />3 tbsp powdered gelatin + 3
-              tbsp water</label
-            >
-            <label class="ingredients" for="item6"
-              ><input type="checkbox" id="item6" />5 drops purple food
-              gel</label
-            >
-            <label class="ingredients" for="item7"
-              ><input type="checkbox" id="item7" />3 drops blue food gel</label
-            >
-          </div>
-        </div>
-        <div class="recipe-instructions">
-          <h3 class="recipe-instructions-title">Instructions</h3>
-          <p class="recipe instructions-text">
-            For a recipe with so few ingredients (cream cheese, eggs, sugar,
-            sour cream, vanilla & salt), it took a lot longer than you might
-            think to develop the perfect version. I’ve shared a few cheesecake
-            variations in the past but getting a perfected classic version took
-            lots of testing. Finally, here we are.
-          </p>
-          <ol type="1" class="recipe-instructions-steps">
-            <li class="instruction-step">
-              <a class="instruction-step-title"
-                >Use room temperature ingredients:
-              </a>
-              It’s important that your cream cheese comes to room temperature
-              before you begin making your cheesecake. This will prevent any
-              lumps and ensure a cheesecake with a smooth, creamy texture.
-              However, to ensure that all of your ingredients blend together
-              nicely and give you the desired result, they should all be at room
-              temperature before you begin.
-            </li>
-            <li class="instruction-step">
-              <a class="instruction-step-title">Take it easy on the eggs: </a>
-              Over-beating your eggs is one of the quickest ways to ruin a
-              cheesecake. Over-beating can ruin the texture and can cause
-              cracks. To prevent this, lightly scramble each egg before adding
-              it into your batter. Keep your mixer on low speed and stir
-              until just combined. Be sure to pause after each addition and
-              scrape down the sides and bottom of your mixing bowl.
-            </li>
-            <img
-              class="instruction-step-img"
-              src="img/recipe-step1.jpg"
-              alt="Imagen de la preparación de la receta donde se vierte la masa en la base"
-              type="image/jpg"
-            />
-            <li class="instruction-step">
-              <a class="intruction-step-title">Don’t open the oven: </a>
-              I know how tempting it can be to want to check on your perfect,
-              beautiful cheesecake, but wait until it’s finished baking (or
-              close to it) before opening the oven door! Yes, you will have to
-              test for doneness at some point and there’s a real possibility it
-              will need more time in the oven, but minimize opening the oven as
-              much as possible.Opening the oven door can drastically reduce the
-              temperature of your oven, which will slow the baking process and
-              might cause your cheesecake to sink or crack.
-            </li>
-            <li class="instruction-step">
-              <a class="intruction-step-title">Free your crust!: </a>
-              Once your cheesecake is done baking, allow it to cool for 10
-              minutes on top of the stove. Then, run a knife around the inside
-              of the springform pan to loosen the crust from the sides.
-            </li>
-            <li class="instruction-step">
-              <a class="intruction-step-title"
-                >Cool at room temperature before moving to the fridge:
-              </a>
-              I always let my cheesecake come to room temperature before
-              chilling. For bests results, let it cool as gradually as possible.
-              I put mine on top of my oven (the warmest spot in my house) so it
-              can gradually cool off as the oven does. This pre-chilling cooling
-              period can take an hour or two, but it’s worth it. An abrupt
-              temperature change (moving the cheesecake directly from oven to
-              fridge) is likely to make it crack.
-            </li>
-            <img
-              class="instruction-step-img"
-              src="img/recipe-step2.jpg"
-              alt="Imagen de la preparación de la receta donde se ve la masa entera con el relleno"
-              type="image/jpg"
-            />
-          </ol>
-        </div>
-      </section>
-      <section class="more-articles">
-        <h3 class="more-articles-title">Read More Articles</h3>
-        <p class="more-articles text">
-          We consider all the drivers of change gives you the components you
-          need to change to create a truly happens.
-        </p>
-        <div class="more-articles-list">
-          <article class="articles-card">
-            <img
-              class="articles-card-img"
-              src="img/article1.jpg"
-              alt="Imagen donde se está preparando un plato de sushi"
-              type="image/jpeg"
-            />
-            <time datetime="" class="article-card-date">January 3, 2023</time>
-            <h3 class="articles-card-title">
-              How to prepare a delicious gluten free sushi
-            </h3>
-          </article>
-          <article class="articles-card">
-            <img
-              class="articles-card-img"
-              src="img/article2.jpg"
-              alt="Imagen donde se están preparando unos postres"
-              type="image/jpeg"
-            />
-            <time datetime="" class="article-card-date">January 3, 2023</time>
-            <h3 class="articles-card-title">
-              Exclusive baking lessons from the pastry king
-            </h3>
-          </article>
-          <article class="articles-card">
-            <img
-              class="articles-card-img"
-              src="img/article3.jpg"
-              alt="Imagen de un plato de comida con patatas fritas en airfryer"
-              type="image/jpeg"
-            />
-            <time datetime="" class="article-card-date">January 3, 2023</time>
-            <h3 class="articles-card-title">
-              How to prepare the perfect fries in an air fryer
-            </h3>
-          </article>
-          <article class="articles-card">
-            <img
-              class="articles-card-img"
-              src="img/article4.jpg"
-              alt="Imagen de unos nuggets de pollo abiertos por la mitad"
-              type="image/jpeg"
-            />
-            <time datetime="" class="article-card-date">January 3, 2023</time>
-            <h3 class="articles-card-title">
-              How to prepare delicious chicken tenders
-            </h3>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-info">
-        <div class="footer-info-company">
-          <div class="logo">
-            <img
-              src="img/japanese-food.svg"
-              alt="Logo del restaurante Bistro Bliss"
-              class="logo"
-            />
-            <h1>Bistro Bliss</h1>
-          </div>
-          <p class="footer-info-company-desc">
-            In the new era of technology we look a in the future with certainty
-            and pride to for our company and.
-          </p>
-          <nav class="top-bar-social">
-            <ul>
-              <li>
-                <a href="#">Twitter</a>
-              </li>
-              <li>
-                <a href="#">Facebook</a>
-              </li>
-              <li>
-                <a href="#">Instagram</a>
-              </li>
-              <li>
-                <a href="#">Github</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="footer-info-pages">
-          <h3 class="footer-info-pages-title">Pages</h3>
-          <ul class="footer-info-pages-menu">
-            <li class="footer-info-pages-item">Home</li>
-            <li class="footer-info-pages-item">About</li>
-            <li class="footer-info-pages-item">Menu</li>
-            <li class="footer-info-pages-item">Pricing</li>
-            <li class="footer-info-pages-item">Blog</li>
-            <li class="footer-info-pages-item">Contact</li>
-            <li class="footer-info-pages-item">Delivery</li>
-          </ul>
-        </div>
-        <div class="footer-info-utility">
-          <h3 class="footer-info-utility-title">Utility Pages</h3>
-          <ul class="footer-info-utility-menu">
-            <li class="footer-info-utility-menu-item">Start Here</li>
-            <li class="footer-info-utility-menu-item">Styleguide</li>
-            <li class="footer-info-utility-menu-item">Password Protected</li>
-            <li class="footer-info-utility-menu-item">404 Not Found</li>
-            <li class="footer-info-utility-menu-item">Licenses</li>
-            <li class="footer-info-utility-menu-item">Changelog</li>
-            <li class="footer-info-utility-menu-item">View More</li>
-          </ul>
-        </div>
-        <div class="footer-info-instagram">
-          <h3 class="footer-info-instagram-title">Follow Us On Instagram</h3>
-          <div class="footer-info-instagram-grid">
-            <img
-              class="footer-info-instagram-img"
-              src="img/insta1.jpg"
-              alt="Primera imagen de Instagram"
-            />
-            <img
-              class="footer-info-instagram-img"
-              src="img/insta2.jpg"
-              alt="Segunda imagen de Instagram"
-            />
-            <img
-              class="footer-info-instagram-img"
-              src="img/insta3.jpg"
-              alt="Tercera imagen de Instagram"
-            />
-            <img
-              class="footer-info-instagram-img"
-              src="img/insta4.jpg"
-              alt="Cuarta imagen de Instagram"
-            />
-          </div>
+      <div class="footer-info-pages">
+        <h3 class="footer-info-pages-title">Pages</h3>
+        <ul class="footer-info-pages-menu">
+          <li class="footer-info-pages-item">Home</li>
+          <li class="footer-info-pages-item">About</li>
+          <li class="footer-info-pages-item">Menu</li>
+          <li class="footer-info-pages-item">Pricing</li>
+          <li class="footer-info-pages-item">Blog</li>
+          <li class="footer-info-pages-item">Contact</li>
+          <li class="footer-info-pages-item">Delivery</li>
+        </ul>
+      </div>
+      <div class="footer-info-utility">
+        <h3 class="footer-info-utility-title">Utility Pages</h3>
+        <ul class="footer-info-utility-menu">
+          <li class="footer-info-utility-menu-item">Start Here</li>
+          <li class="footer-info-utility-menu-item">Styleguide</li>
+          <li class="footer-info-utility-menu-item">Password Protected</li>
+          <li class="footer-info-utility-menu-item">404 Not Found</li>
+          <li class="footer-info-utility-menu-item">Licenses</li>
+          <li class="footer-info-utility-menu-item">Changelog</li>
+          <li class="footer-info-utility-menu-item">View More</li>
+        </ul>
+      </div>
+      <div class="footer-info-instagram">
+        <h3 class="footer-info-instagram-title">Follow Us On Instagram</h3>
+        <div class="footer-info-instagram-grid">
+          <img class="footer-info-instagram-img" src="img/insta1.jpg" alt="Primera imagen de Instagram" />
+          <img class="footer-info-instagram-img" src="img/insta2.jpg" alt="Segunda imagen de Instagram" />
+          <img class="footer-info-instagram-img" src="img/insta3.jpg" alt="Tercera imagen de Instagram" />
+          <img class="footer-info-instagram-img" src="img/insta4.jpg" alt="Cuarta imagen de Instagram" />
         </div>
       </div>
-      <p class="footer-copyright">
-        Copyright © 2023 Hashtag Developer. All Rights Reserved
-      </p>
-    </footer>
-  </body>
+    </div>
+    <p class="footer-copyright">
+      Copyright © 2023 Hashtag Developer. All Rights Reserved
+    </p>
+  </footer>
+</body>
+
 </html>
