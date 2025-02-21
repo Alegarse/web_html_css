@@ -1,7 +1,5 @@
 .about-us {
     display: flex;
-    max-width: 100rem;
-    margin: 0 auto;
     padding: 7.5rem 9.5rem;
 }
 .about-us > div {

@@ -1,14 +1,9 @@
-.bg-dark-grey {
-    background-color: var(--color-dark-grey);
-}
-
 .top-bar {
     display: flex;
     justify-content: space-between;
     background-color:  var(--color-dark-grey);
     color: var(--color-white);
     max-width: 81.25rem;
-    margin: 0 auto;
     padding: 0.56rem 0;
 }
 
@@ -17,7 +12,6 @@
     align-items: center; 
     gap: 0.5rem;
     color: var(--color-white);
-    text-decoration: none;
 }
 
 .top-bar-contact {
@@ -55,5 +49,4 @@
 
 .menu-list a {
     color: var(--color-secondary);
-    text-decoration: none;
 }

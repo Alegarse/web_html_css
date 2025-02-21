@@ -167,3 +167,8 @@ ul {
     list-style: none;
     padding: 0;
 }
+
+/* Links */
+a {
+    text-decoration: none;
+}
