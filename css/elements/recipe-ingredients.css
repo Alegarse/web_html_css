@@ -48,7 +48,7 @@
     border-radius: 50%;
     gap:1.25rem;
 }
-
+/*
 label input[type="checkbox"] ::after{
     input [type="checkbox"]::after {
     appearance: none;
@@ -60,13 +60,10 @@ label input[type="checkbox"] ::after{
     display: flex;
     align-items: center;
 }
+*/
 /* Interior con after speudoelemento*/
 /* y usar pseudo clase checked */
 .ingredients {
     gap: 20px;
-}
-  
-
-.ingredients {
     font-weight: 500;
 }
