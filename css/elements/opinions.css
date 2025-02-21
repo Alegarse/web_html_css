@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6.125rem 9.5rem;
+    padding-block: 6.125rem 9.5rem;
     gap: 4rem;
 }
 
@@ -57,10 +57,9 @@
 .opinions-card-desc::after {
     content: "";
     display: block;
-    width: 100%;
-    height: 2px;
+    height: 1px;
     background-color: var(--color-light-grey);
-    margin: 32px 0;
+    margin-block: 32px;
 }
 
 .opinions-card-author {

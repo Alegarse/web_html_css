@@ -32,7 +32,7 @@
     gap: 2rem;
     background-color: var(--color-tertiary);
     border-radius: 0.75rem;
-    border: 1.5px solid var(--color-light-grey);
+    border: 0.0938rem solid var(--color-light-grey);
 }
 
 .our-menu-card-title {
@@ -58,7 +58,7 @@
     content: "";
     position: absolute;
     display: inline-block;
-    width: 100px;
+    width: 6.25rem;
     aspect-ratio: 1;
     background-color: var(--color-semi-dark-grey);
     opacity: 0.07;

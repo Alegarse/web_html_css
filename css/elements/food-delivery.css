@@ -1,35 +1,35 @@
 .food-delivery {
     display: flex;
-    padding: 120px 152px;
-    gap: 90px;
+    padding: 7.5rem 9.5rem;
+    gap: 5.625rem;
     align-items: center;
 }
 
 .food-delivery-images {
     display: flex;
-    height: 627px;
-    gap: 24px;
+    height: 39.1875rem;
+    gap: 1.5rem;
 }
 
 .food-delivery-image-one {
-    width: 431px;
-    height: 600px;
+    width: 26.9375rem;
+    height: 37.5rem;
     flex-shrink: 0;
     border-radius: 0.75rem;
 }
 
 .food-delivery-image-two {
-    width: 290px;
-    height: 333px;
+    width: 18.125rem;
+    height: 20.8125rem;
     flex-shrink: 0;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 }
 
 .food-delivery-image-three {
-    width: 290px;
-    height: 240px;
+    width: 18.125rem;
+    height: 15rem;
     flex-shrink: 0;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 }
 
 .food-delivery-secondary-images {
@@ -37,27 +37,27 @@
     flex-direction: column;
     justify-content: end;
     align-items: end;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .food-delivery-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 .food-delivery-title {
-    width: 461px;
+    width: 28.8125rem;
     color: var(--color-font);
     font-family: var(--font-title);
-    font-size: 55px;
+    font-size: 3.4375rem;
     font-weight: 500;
     line-height: 110%;
 }
 
 .food-delivery-desc {
-    width: 414px;
+    width: 25.875rem;
     color: var(--color-font-secondary);
     font-family: var(--font-text);
     font-weight: 400;
@@ -68,16 +68,46 @@
 .food-delivery-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .food-delivery-list-li {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     color: var(--color-font);
     font-family: var(--font-text);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 130%;
+    position: relative;
+    padding-inline-start: 3.125rem;;
+}
+
+.food-delivery-list-li:nth-child(1)::before {
+    content: url(../../img/clock.svg);
+}
+
+.food-delivery-list-li:nth-child(2)::before {
+    content: url(../../img/receipt-tax.svg);
+}
+
+.food-delivery-list-li:nth-child(3)::before {
+    content: url(../../img/shopping-cart.svg);
+}
+
+.food-delivery-list-li::before {
+    display: inline-block;
+    position: absolute;
+    z-index: 5;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    width: 1.875rem;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    padding-top: 0.25rem;
+    padding-left: 0.0625rem;
 }
