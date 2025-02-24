@@ -19,6 +19,7 @@
     font-size: 1.125rem;
     font-weight: 400;
     padding-bottom: 4.5rem;
+    text-align: center;
 }
 
 .more-articles-list {
@@ -37,6 +38,7 @@
     justify-items: flex-start;
     background-color: var(--color-white);
     box-shadow: 0rem 0.25rem 1.5125rem 0rem rgba(0, 0, 0, 0.08);
+    border-radius: 1rem;
 }
 
 .article-card-img {
