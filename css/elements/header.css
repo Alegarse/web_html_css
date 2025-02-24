@@ -1,14 +1,9 @@
-.bg-dark-grey {
-    background-color: #474747;
-}
-
 .top-bar {
     display: flex;
     justify-content: space-between;
-    background-color: #474747;
-    color: white;
+    background-color:  var(--color-dark-grey);
+    color: var(--color-white);
     max-width: 81.25rem;
-    margin: 0 auto;
     padding: 0.56rem 0;
 }
 
@@ -16,8 +11,7 @@
     display: flex;
     align-items: center; 
     gap: 0.5rem;
-    color: white;
-    text-decoration: none;
+    color: var(--color-white);
 }
 
 .top-bar-contact {
@@ -37,7 +31,6 @@
     justify-content: space-between;
     align-items: center;
     max-width: 81.25rem;
-    margin: 0 auto;
     padding: 1.875rem 0;
 }
 
@@ -54,6 +47,5 @@
 }
 
 .menu-list a {
-    color: #2C2F24;
-    text-decoration: none;
+    color: var(--color-secondary);
 }
