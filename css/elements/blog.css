@@ -39,6 +39,7 @@
     padding-bottom: 1.5rem;
     background-color: var(--color-white);
     border-radius: 1rem;
+    box-shadow: 0rem 0.25rem 1.5125rem 0rem rgba(0, 0, 0, 0.08);
 }
 
 .article-principal {
