@@ -3,20 +3,23 @@
     flex-direction: column;
     max-width: 55.56rem;
     padding-left: 3rem;
-    font-family: "DM Sans";
-    font-size: 1.125rem;
-    font-weight: 400;
 }
 
 .recipe-instructions-title {
-    font-family: "DM Sans";
-    font-size: 1.5rem;
+    font-family: var(--font-text);
+    font-size: 24px;
     font-weight: 700;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
+    line-height: 125%; /* 125% */
+    letter-spacing: -0.72px;
 }
 
 .recipe-instructions-text {
+    font-family: var(--font-text);
     margin-bottom: 2.5rem;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
 }
 
 .recipe-instructions li {
@@ -34,4 +37,6 @@
 .recipe-instructions img {
     border-radius: 0.75rem;
     margin: 3rem 0;
+    width: 889px;
+    height: 448px;
 }
