@@ -38,6 +38,10 @@
     display: flex;
     align-items: center;
     gap: 0.875rem;
+
+    & h1 {
+        font-style: italic;
+    }
 }
 
 .menu-list {

@@ -26,7 +26,7 @@
 .our-menu-card {
     display: flex;
     flex-direction: column;
-    padding: 2.3125rem 2.125rem 1.875rem;
+    padding: 4.375rem 2.125rem 1.875rem;
     align-items: center;
     text-align: center;
     gap: 2rem;
@@ -42,6 +42,16 @@
     font-weight: 700;
     line-height: 125%;
     margin-block-end: 1rem;
+}
+
+.our-menu-card-desc {
+    max-width: 14.875rem;
+    color: var(--font-secondary);
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 .our-menu-card-link {

@@ -24,7 +24,6 @@
 }
 
 .recipe-ingredient {
-    margin-bottom: 1.25rem;
     gap: 1.25rem;
 }
 
@@ -33,11 +32,11 @@
 }
 
 .title1 {
-    margin-bottom: 3.125rem;
+    margin-bottom: 1.875rem;
 }
 
 .title2 {
-    margin: 3rem 0;
+    margin: 3rem 0 1.75rem 0;
 }
 
 .ingredients {
@@ -55,9 +54,9 @@
 .recipe-checkbox input[type="checkbox"] {
     appearance: none;
     border: 0.125rem solid;
-    width: 25.8px;
+    width: 1.6125rem;
     height: 1.6125rem;
-    padding: 1.2px;
+    padding: 0.075rem;
     border-radius: 50%;
     color: var(--color-primary);
 }
