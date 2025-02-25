@@ -44,6 +44,16 @@
     margin-block-end: 1rem;
 }
 
+.our-menu-card-desc {
+    max-width: 14.875rem;
+    color: var(--font-secondary);
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
 .our-menu-card-link {
     color: var(--color-primary);
     font-weight: 700;
