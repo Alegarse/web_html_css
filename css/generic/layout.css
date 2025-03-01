@@ -21,9 +21,3 @@ h1, h2, h3, h4, h5, h6
 .bg-dark-grey {
     background-color: var(--color-dark-grey);
 }
-
-@media (max-width: 1296px) {
-    .container {
-        padding-inline: 16px;
-    }
-}

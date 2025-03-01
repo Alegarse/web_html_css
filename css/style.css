@@ -32,3 +32,8 @@
 @import "/css/elements/recipe-ingredients.css";
 @import "/css/elements/recipe-instructions.css";
 @import "/css/elements/recipe-adds.css";
+
+/**
+ * WebPage Responsive Styles
+ */
+ @import "/css/generic/responsive.css";
