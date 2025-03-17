@@ -4,3 +4,4 @@ Repositorio que contiene la parte de aprendizaje HTML y CSS puro, para la maquet
 ** Lenguajes de marcas ** 
 - HTML
 - CSS
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
