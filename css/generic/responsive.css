@@ -1,0 +1,18 @@
+/* Layout */
+@media (max-width: 1296px) {
+    .container {
+        width: 100%;
+        padding-inline: 16px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6
+.h1 .h2 .h3 .h4 .h5 .h6 {
+    font-size: clamp(0.875rem, -1.3125rem + 7vw, 2.625rem);
+}
+
+p {
+    font-size: clamp(0.875rem, 3vw, 1.125rem);
+}
+
+/* Header */

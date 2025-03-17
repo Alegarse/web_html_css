@@ -26,7 +26,8 @@
 
 /**
  * WebPage Recipe Styles
- */
+*/
+
 @import "./elements/recipe.css";
 @import "./elements/recipe-header.css";
 @import "./elements/recipe-ingredients.css";
